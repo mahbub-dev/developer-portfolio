@@ -1,0 +1,112 @@
+.main {
+	margin: 5rem 0;
+}
+.about {
+	padding: 7rem;
+	width: 1140px;
+	height: 550px;
+	background: #fff8f3;
+	border-radius: 10px;
+	margin: auto;
+}
+.about h2 {
+	margin-bottom: 2rem;
+	font-size: 30p;
+	text-align: center;
+}
+.about p {
+	text-align: justify;
+	color: #757575;
+}
+.contact-details {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 2rem;
+}
+.contact-details p {
+	text-align: center;
+	color: #757575;
+}
+
+/* service section */
+.service {
+	max-width: 1140px;
+	margin: 5rem auto;
+}
+.service h1 {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.service > p {
+	text-align: center;
+	width: 700px;
+	margin: 1rem auto;
+	color: #757575;
+}
+.service-items {
+	color: #757575;
+	margin-top: 2rem;
+	display: flex;
+}
+.service-items .item {
+	display: flex;
+	margin-right: 2rem;
+	flex-direction: column;
+	max-width: 267px;
+	padding: 1.5rem;
+	height: 377px;
+	background: #ffffff;
+	box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+	border-radius: 5px;
+}
+.item img {
+	width: 30px;
+	height: 30px;
+	margin-bottom: 1rem;
+}
+.item h2 {
+	color: black;
+	margin-bottom: 1rem;
+}
+
+/* resume section  */
+.resume {
+	max-width: 1140px;
+	margin: auto;
+}
+.resume h1 {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.resume button {
+	display: block;
+	margin: 1rem auto;
+}
+.resume-wrapper {
+	color: #474747;
+	display: flex;
+	width: 100%;
+	margin-bottom: 4rem;
+}
+.resume-wrapper h2 {
+	margin-bottom: 1rem;
+}
+.ls {
+	margin-right: 1rem;
+	width: 50%;
+}
+.rs {
+	width: 50%;
+}
+.resume-item {
+	padding: 1rem 0;
+	border-bottom: 1px solid #d1d1d1;
+}
+.resume-item h5 {
+	color: #979797;
+	margin: 0.5rem 0;
+}
+.resume-item p {
+	color: #757575;
+}
